@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Set The Mood</string>
+    <string name="home_title">What\'s Your Mood?</string>
+    <string name="search">Search for a song or artist</string>
+    <string name="key">Key</string>
+    <string name="mood_key">Mood Key</string>
+    <string name="happy">Happy</string>
+    <string name="sad">Sad</string>
+    <string name="angry">Angry</string>
+    <string name="excited">Excited</string>
+    <string name="relaxed">Relaxed</string>
+    <string name="lazy">Lazy</string>
+    <string name="drunk">Drunk</string>
+    <string name="high">High</string>
+    <string name="action_settings">Settings</string>
+    <string name="main_test">main test</string>
+    <string name="oval_background">Oval background</string>
+    <string name="player_state">Play and pause button state</string>
+    <string name="selected_song_thumbnail">Selected song thumbnail</string>
+    <string name="track_thumbnail">Track thumbnail</string>
+</resources>
