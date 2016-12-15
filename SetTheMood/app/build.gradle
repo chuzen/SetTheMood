@@ -52,6 +52,9 @@ task localTest(type: Test, dependsOn: assemble) {
     classpath = sourceSets.testLocal.runtimeClasspath
 }
 
+check.dependsOn localTest
+
+
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testLocalCompile 'junit:junit:4.10'
