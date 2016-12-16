@@ -24,7 +24,7 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            testCoverageEnabled false
+            testCoverageEnabled true
         }
     }
 
@@ -59,7 +59,6 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testLocalCompile 'junit:junit:4.10'
     testLocalCompile 'org.mockito:mockito-core:1.9.5'
-
     compile 'com.android.support:appcompat-v7:23.1.1'
     compile 'com.google.code.gson:gson:2.3.1'
     compile 'com.squareup.retrofit:retrofit:1.8.0'
