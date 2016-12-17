@@ -15,7 +15,6 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import static android.support.test.espresso.Espresso.onData;
 import static android.support.test.espresso.Espresso.onView;
 import static android.support.test.espresso.action.ViewActions.click;
 import static android.support.test.espresso.action.ViewActions.closeSoftKeyboard;
@@ -117,7 +116,7 @@ public class MainActivityTest extends ActivityInstrumentationTestCase2<MainActiv
 
         // added by Chunda
         //check to see if the first song is clicked
-        onData(withId(R.id.songs_list)).perform(RecyclerViewActions.actionOnItemAtPosition(1, click()));
+        onView(withId(R.id.songs_list)).perform(RecyclerViewActions.actionOnItemAtPosition(1, click()));
 
         /*
         onView(withId(R.id.songs_list)).check(new RecylerViewItemCountAssertion(9));
